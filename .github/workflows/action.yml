@@ -9,7 +9,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: CHECK OUT REPO
-        used: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: SETUP JAVA 18
         uses: actions/setup-java@v3
         with:
