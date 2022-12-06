@@ -1,6 +1,9 @@
 package com.javaprograms;
 
-public class Fibonacci {
+import org.junit.jupiter.api.Test;
+
+public class FibonacciTest {
+    @Test
     public static void main(String[] args) {
         int n1=0, n2 =1, n3, count =15;
         for(int k=1;k<=count;k++)

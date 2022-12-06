@@ -1,7 +1,11 @@
 package com.javaprograms;
 
-public class Palindrome {
-    public static void main(String args[]) {
+import org.junit.jupiter.api.Test;
+
+public class PalindromeTest {
+
+    @Test
+    public void palindrome() {
         int r, sum = 0, temp;
         int num = 3456542;
         temp = num;
